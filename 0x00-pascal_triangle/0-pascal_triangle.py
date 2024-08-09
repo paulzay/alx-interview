@@ -3,6 +3,7 @@
 Module for pascal_triangle
 """
 
+
 def pascal_triangle(n):
     """
     Returns a list of lists of integers representing the Pascal’s triangle of n
@@ -17,4 +18,3 @@ def pascal_triangle(n):
         row.append(1)
         triangle.append(row)
     return triangle
-
