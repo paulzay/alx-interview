@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" n queens """ 
+""" n queens """
 
 
 def isSafe(board, row, col, n):
